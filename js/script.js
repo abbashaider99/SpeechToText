@@ -30,6 +30,7 @@ function runSpeechRecognition() {
             result.innerHTML = "Text Matched";
             result.style.color = "green";
             output.style.color = "green";
+            output.style.borderColor = "green";
         }else{
             result.innerHTML = "Text Not Matched";
             result.style.color = "red";
