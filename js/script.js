@@ -29,9 +29,12 @@ function runSpeechRecognition() {
         if(transcript==myText){
             result.innerHTML = "Text Matched";
             result.style.color = "green";
+            output.style.color = "green";
         }else{
             result.innerHTML = "Text Not Matched";
             result.style.color = "red";
+            output.style.color = "red";
+            output.style.borderColor = "red";
         }
         output.classList.remove("hide");
         result.classList.remove("hide");
